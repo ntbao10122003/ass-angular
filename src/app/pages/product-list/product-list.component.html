@@ -1,0 +1,23 @@
+<p>product-list works!</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>stt</th>
+            <th>ten sp</th>
+            <th>gia</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor = " let product of products ;index as i">
+            <td> {{i + 1}}</td>
+            <td> {{ product.name}}</td>
+            <td> {{ product.price}}</td>
+            <td>
+                <button (click) = "removeItem(product.id)!">xoa</button>
+                <button> edit</button>
+            </td>
+        </tr>
+    </tbody>
+</table>

@@ -1,0 +1,19 @@
+{
+  "products": [
+    {
+      "name": "Apple iPad Probao",
+      "price": 123122,
+      "id": 8
+    },
+    {
+      "name": "nguyễn thế bảo",
+      "price": 1111,
+      "id": 9
+    },
+    {
+      "name": "rqewwew",
+      "price": 2213,
+      "id": 10
+    }
+  ]
+}
